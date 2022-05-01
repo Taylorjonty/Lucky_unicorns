@@ -107,8 +107,8 @@ def generate_token(balance):
             print("\nSorry but you have run out of money")
             play_again = "x"
         else:
-            play_again = input("\nDo you want to play another round?\n<enter> to play"
-                               "again or 'X' to exit ").lower()
+            play_again = input("\nDo you want to play another round?"
+                               "\n<enter> play again or 'X' to exit").lower()
 
         print()
     return balance
